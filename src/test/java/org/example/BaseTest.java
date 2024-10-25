@@ -60,8 +60,8 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         // Create an instance of ChromeDriver
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");// For opening the browser in headless mode
-        options.addArguments("--disable-gpu"); // Optional, for specific configurations
+       // options.addArguments("--headless");// For opening the browser in headless mode
+       // options.addArguments("--disable-gpu"); // Optional, for specific configurations
         driver = new ChromeDriver(options);
 
         // Maximize the browser window
